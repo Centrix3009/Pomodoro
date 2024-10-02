@@ -1,44 +1,17 @@
 # pomodoro-app
 
+The Pomodoro Timer is a productivity tool based on the Pomodoro Technique, which encourages focused work sessions followed by short breaks. It helps users improve concentration and manage time effectively by dividing work into intervals, typically 25 minutes, followed by a 5-minute break. This structured approach not only enhances productivity but also reduces burnout, allowing individuals to maintain high levels of focus and energy throughout their tasks.
 
 
 
-# Reproducing this web app
-To recreate this web app on your own computer, do the following.
+# Installation
+1. Clone the repository: `https://github.com/Centrix3009/Pomodoro.git`
+2. Setup your virtual environment: `conda create --name pomodoro python=3.8`
+3. Activate the virtual environment: `conda activate pomodoro`
+4. Install all packages and dependencies: `pip install -r requirements.txt`
+5. Run the app: `streamlit run app.py`
 
-### Create conda environment
-Firstly, we will create a conda environment called *pomodoro*
-```
-conda create -n pomodoro python=3.7.9
-```
-Secondly, we will login to the *pomodoro* environement
-```
-conda activate pomodoro
-```
-### Install prerequisite libraries
-
-Download requirements.txt file
-
-```
-wget https://raw.githubusercontent.com/dataprofessor/pomodoro-app/main/requirements.txt
-
-```
-
-Pip install libraries
-```
-pip install -r requirements.txt
-```
-###  Download and unzip contents from GitHub repo
-
-Download and unzip contents from https://github.com/dataprofessor/pomodoro-app/archive/main.zip
-
-###  Launch the app
-
-```
-streamlit run app.py
-```
-
-# snippet
+# Snippet
 
 ![Pomodoro](https://github.com/user-attachments/assets/5e9a5a42-434e-4803-ba39-a07845b86814)
 
